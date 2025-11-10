@@ -87,20 +87,20 @@
         layer_1 {
             display-name = "Mouse Layer";
             bindings = <
-&trans    &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)   &mkp MB3      &kp PRINTSCREEN
-&mkp MB5  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB2        &msc SCRL_UP  &msc SCRL_DOWN
-&mkp MB4  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT
-&trans    &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
+&trans  &trans  &trans  &trans  &trans                    &kp SPACE     &kp RG(LEFT)  &kp RG(RIGHT)   &mkp MB3      &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans                    &kp LG(UP)    &mkp MB1      &mkp MB2        &msc SCRL_UP  &msc SCRL_DOWN
+&trans  &trans  &trans  &trans  &trans                    &kp LG(DOWN)  &kp LEFT      &kp LEFT_ARROW  &kp UP_ARROW  &kp RIGHT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans        &trans        &kp LEFT_ARROW  &kp DOWN      &kp RIGHT
             >;
         };
 
         layer_2 {
             display-name = "Number Layer";
             bindings = <
-&kp F4        &kp LS(N2)         &kp LS(N5)           &kp NUMBER_9       &kp EQUAL                          &kp KP_PLUS      &kp N7  &kp N8           &kp N9       &kp KP_MINUS
+&kp F4        &kp LS(N2)         &kp LS(NUMBER_6)     &kp NUMBER_9       &kp EQUAL                          &kp KP_PLUS      &kp N7  &kp N8           &kp N9       &kp KP_MINUS
 &kp ASTERISK  &mt LALT NUMBER_4  &mt LSHIFT NUMBER_5  &mt LGUI NUMBER_6  &mt LCTRL MINUS                    &kp KP_MULTIPLY  &kp N4  &kp N5           &kp N6       &kp KP_SLASH
-&kp SLASH     &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &kp N0           &kp N1  &kp N2           &kp N3       &kp COMMA
-&trans        &kp DOT            &kp NUMBER_0         &trans             &kp LANG2        &trans    &trans  &trans           &trans  &kp RS(RC(TAB))  &kp RC(TAB)  &kp DOT
+&trans        &kp NUMBER_1       &kp NUMBER_2         &kp NUMBER_3       &kp PLUS                           &kp N0           &kp N1  &kp N2           &kp N3       &kp COMMA
+&trans        &trans             &trans               &trans             &trans           &trans    &trans  &trans           &trans  &kp RS(RC(TAB))  &kp RC(TAB)  &kp DOT
             >;
 
             sensor-bindings = <&encoder_kp C_VOL_UP C_VOL_DN>;
