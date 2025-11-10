@@ -54,7 +54,7 @@ layers:
   - Gui+→
   - '&mkp MB3'
   - PRINTSCREEN
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -64,7 +64,7 @@ layers:
   - '&mkp MB2'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -89,7 +89,7 @@ layers:
   Number Layer:
   - F4
   - Sft+2
-  - Sft+5
+  - Sft+6
   - '9'
   - '='
   - KP PLUS
@@ -107,7 +107,7 @@ layers:
   - '5'
   - '6'
   - KP SLASH
-  - /
+  - {t: ▽, type: trans}
   - '1'
   - '2'
   - '3'
@@ -118,10 +118,10 @@ layers:
   - '3'
   - ','
   - {t: ▽, type: trans}
-  - .
-  - '0'
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
