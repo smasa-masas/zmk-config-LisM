@@ -258,3 +258,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [0, 1]
+  k: ESCAPE
+- p: [10, 11]
+  k: TAB
+- p: [8, 9]
+  k: DEL
