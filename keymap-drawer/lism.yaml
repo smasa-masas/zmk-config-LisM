@@ -16,11 +16,11 @@ layers:
   - {t: D, h: LSHIFT}
   - {t: F, h: LGUI}
   - {t: G, h: LCTRL}
-  - {t: H, h: RCTRL}
-  - {t: J, h: RGUI}
-  - {t: K, h: RSHIFT}
-  - {t: L, h: RALT}
-  - {t: ;, h: Mark Layer}
+  - H
+  - J
+  - K
+  - L
+  - {t: '-', h: Mark Layer}
   - Z
   - X
   - C
@@ -30,7 +30,7 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: Sft+INT RO, h: Device Layer}
   - {t: DEL, h: Device Layer}
   - {t: Mouse Layer, h: toggle}
   - {t: TAB, h: Mouse Layer}
@@ -188,22 +188,22 @@ layers:
   - ''
   - ''
   - ''
+  - BT CLR
   - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - Reset
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - BT CLR ALL
   - ''
   - ''
   - Reset
-  - {t: Boot, type: held}
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {t: Reset, type: held}
+  - Boot
   - BT CLR ALL
   - ''
   - ''
