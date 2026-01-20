@@ -13,8 +13,8 @@ layers:
   - P
   - A
   - S
-  - D
-  - F
+  - {t: D, h: LEFT CONTROL}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
   - J
@@ -25,7 +25,7 @@ layers:
   - X
   - C
   - V
-  - B
+  - {t: B, h: Mouse Layer}
   - N
   - M
   - ','
@@ -51,31 +51,31 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - Ctl+PAGE UP
-  - Ctl+PAGE DOWN
+  - UP ARROW
+  - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - Gui+↑
-  - '&mkp MB1'
-  - '&mkp MB1'
-  - '&msc SCRL_UP'
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - Gui+↓
-  - ←
-  - ↑
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -84,8 +84,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
+  - Ctl+PAGE DOWN
+  - Ctl+PAGE UP
   Number Layer:
   - F4
   - Sft+2
@@ -121,10 +121,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: LANG2, type: held}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LANG1
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Ctl+TAB
   - Ctl+TAB
@@ -165,8 +165,8 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - SPACE
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LANGUAGE 2
+  - LANGUAGE 1
   - ENTER
   - {t: ▽, type: trans}
   - ''
