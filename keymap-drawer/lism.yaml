@@ -12,16 +12,16 @@ layers:
   - O
   - P
   - A
-  - {t: S, h: LALT}
-  - {t: D, h: LSHIFT}
-  - {t: F, h: LGUI}
-  - {t: G, h: LCTRL}
+  - S
+  - D
+  - F
+  - G
   - H
   - J
   - K
   - L
   - {t: '-', h: Mark Layer}
-  - Z
+  - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
@@ -31,18 +31,18 @@ layers:
   - ','
   - .
   - {t: Sft+INT RO, h: Device Layer}
-  - {t: DEL, h: Device Layer}
-  - {t: Mouse Layer, h: toggle}
-  - {t: TAB, h: Mouse Layer}
-  - Sft+Gui+4
+  - LEFT CONTROL
+  - {t: LEFT GUI, h: Mouse Layer}
+  - {t: A, h: LEFT ALT}
+  - {t: ▽, type: trans}
   - {t: SPACE, h: Number Layer}
   - {t: ESC, h: Mark Layer}
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
-  - Sft+Gui+4
-  - F7
-  - F10
-  - {t: F12, h: Device Layer}
+  - {t: ▽, type: trans}
+  - ;
+  - Gui+Sft+S
+  - {t: LEFT SHIFT, h: Device Layer}
   Mouse Layer:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -50,21 +50,21 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - SPACE
-  - Gui+←
-  - Gui+→
-  - '&mkp MB3'
+  - Ctl+PAGE UP
+  - Ctl+PAGE DOWN
+  - '&mkp MB2'
   - {t: ▽, type: trans}
-  - '&mkp MB5'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Gui+↑
   - '&mkp MB1'
-  - '&mkp MB2'
+  - '&mkp MB1'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - '&mkp MB4'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -72,8 +72,7 @@ layers:
   - Gui+↓
   - ←
   - ↑
-  - →
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
@@ -83,43 +82,44 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ↓
   - {t: ▽, type: trans}
-  - Gui+W
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   Number Layer:
-  - {t: ▽, type: trans}
+  - F4
+  - Sft+2
+  - Sft+6
+  - Sft+8
+  - Sft+9
+  - KP PLUS
   - '7'
   - '8'
   - '9'
-  - '='
-  - F1
-  - F2
-  - F7
-  - F10
-  - RSHIFT
-  - '*'
-  - {t: '4', h: LALT}
-  - {t: '5', h: LSHIFT}
-  - {t: '6', h: LGUI}
-  - {t: '-', h: LCTRL}
-  - '&mkp MB1'
-  - ←
-  - ↑
-  - →
-  - RGUI
-  - /
+  - KP MINUS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+1
+  - Sft+-
+  - KP MULTIPLY
+  - '4'
+  - '5'
+  - '6'
+  - KP SLASH
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '0'
   - '1'
   - '2'
   - '3'
-  - +
-  - '&mkp MB2'
-  - ''
-  - ↓
-  - ''
-  - RALT
-  - {t: ▽, type: trans}
   - .
-  - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: LANG2, type: held}
   - {t: ▽, type: trans}
@@ -188,9 +188,9 @@ layers:
   - ''
   - ''
   - ''
-  - BT CLR
   - ''
-  - BT CLR ALL
+  - ''
+  - ''
   - ''
   - ''
   - Reset
@@ -215,3 +215,10 @@ layers:
   - ''
   - ''
   - Boot
+combos:
+- p: [0, 1]
+  k: ESCAPE
+- p: [10, 11]
+  k: TAB
+- p: [8, 9]
+  k: DEL
