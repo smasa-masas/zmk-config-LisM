@@ -33,10 +33,10 @@ layers:
   - {t: Sft+INT RO, h: Device Layer}
   - LEFT CONTROL
   - {t: LEFT GUI, h: Mouse Layer}
-  - {t: A, h: LEFT ALT}
+  - LEFT ALT
   - {t: ▽, type: trans}
   - {t: SPACE, h: Number Layer}
-  - {t: ESC, h: Mark Layer}
+  - Mouse Layer
   - {t: BS, h: Mark Layer}
   - {t: ENTER, h: Number Layer}
   - {t: ▽, type: trans}
@@ -56,8 +56,8 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT CONTROL
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - Gui+↑
   - LEFT ARROW
