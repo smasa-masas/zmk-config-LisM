@@ -6,7 +6,7 @@ layers:
   - E
   - R
   - T
-  - Y
+  - {t: Y, h: Mark Layer}
   - U
   - I
   - O
@@ -51,8 +51,8 @@ layers:
   - {t: ▽, type: trans}
   - SPACE
   - Ctl+PAGE UP
+  - '&mkp MB2'
   - UP ARROW
-  - '&mkp MB1'
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -60,10 +60,10 @@ layers:
   - LEFT SHIFT
   - {t: ▽, type: trans}
   - Gui+↑
+  - '&mkp MB1'
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT ARROW
-  - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -135,7 +135,7 @@ layers:
   - (
   - )
   - ''
-  - '~'
+  - {t: '~', type: held}
   - '!'
   - '@'
   - '#'
@@ -149,7 +149,7 @@ layers:
   - _
   - ''''
   - '"'
-  - {t: \, type: held}
+  - \
   - KP NUMLOCK
   - F11
   - '{'
