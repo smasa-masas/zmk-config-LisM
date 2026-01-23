@@ -1,1 +1,10 @@
 #include "lism.dtsi"
+
+&spi0 {
+    /delete-property/ cs-gpios;
+    status = "disabled";
+};
+
+&encoder {
+    status = "okay";
+};
