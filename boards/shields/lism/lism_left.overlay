@@ -1,10 +1,11 @@
 #include "lism.dtsi"
 
 &spi0 {
-    /delete-property/ cs-gpios;
+    /* 左手側ではSPI（トラックボール用ピン）を使わないようにして競合を避ける */
     status = "disabled";
 };
 
 &encoder {
+    /* ここで初めて有効化する */
     status = "okay";
 };
