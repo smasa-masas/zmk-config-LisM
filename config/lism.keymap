@@ -76,7 +76,7 @@
 &kp LEFT_CONTROL  &lt 1 LEFT_GUI  &kp LEFT_ALT        &trans            &lt 2 SPACE  &mo 1    &lt 3 BACKSPACE  &lt 2 ENTER  &trans  &kp SEMICOLON  &kp RG(LS(S))  &lt 4 LEFT_SHIFT
             >;
 
-            sensor-bindings = <&encoder_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
         layer_1 {
