@@ -22,4 +22,5 @@ if SHIELD_LISM_L || SHIELD_LISM_R
     
     config SPI
         default y
+
 endif
